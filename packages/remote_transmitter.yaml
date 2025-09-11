@@ -1,0 +1,5 @@
+remote_transmitter:
+  pin: GPIO3
+  # Infrared remotes use a 50% carrier signal
+  carrier_duty_percent: 50%
+  # rmt_channel: 1 ### this stopped working 2025/02

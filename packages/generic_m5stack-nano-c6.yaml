@@ -53,18 +53,14 @@ esp32_improv:
 # esp32_ble_tracker:
 #   scan_parameters:
 #     active: false
-remote_transmitter:
-  pin: GPIO3
-  # Infrared remotes use a 50% carrier signal
-  carrier_duty_percent: 50%
-  # rmt_channel: 1 ### this stopped working 2025/02
 
 #######################################################
 packages:
-  light:          !include light-nano-c6.yaml
-  switch:         !include switch-nano-c6.yaml
-  sensor:         !include sensor.yaml
-  button:         !include button.yaml
-  text_sensor:    !include text_sensor.yaml
-  binary_sensor:  !include binary_sensor-nano-c6.yaml
+  light:               !include light-nano-c6.yaml
+  switch:              !include switch-nano-c6.yaml
+  sensor:              !include sensor.yaml
+  button:              !include button.yaml
+  text_sensor:         !include text_sensor.yaml
+  binary_sensor:       !include binary_sensor-nano-c6.yaml
+  remote_transmitter:  !include remote_transmitter.yaml
 #######################################################
