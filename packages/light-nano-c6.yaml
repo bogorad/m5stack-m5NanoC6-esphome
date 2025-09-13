@@ -1,4 +1,4 @@
-# Configuration of M5 Atom Lite onboard RGB LED
+# Configuration of M5 NanoC6 onboard RGB LED
 light:
   - platform: esp32_rmt_led_strip
     rgb_order: GRB
