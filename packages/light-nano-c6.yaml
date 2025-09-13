@@ -6,7 +6,6 @@ light:
     num_leds: 1
     # rmt_channel: 0 ### this stopped working 2025/02
     chipset: WS2812
-    is_rgbw: true
     id: m5stack_led
     name: "Light"
     icon: "mdi:led-outline"
