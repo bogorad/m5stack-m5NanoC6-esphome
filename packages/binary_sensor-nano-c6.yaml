@@ -1,4 +1,4 @@
-# Configuration of M5 Atom Lite onboard onboard button
+# Configuration of M5 NanoC6 onboard onboard button
 binary_sensor:
   - platform: gpio
     name: "Button"
